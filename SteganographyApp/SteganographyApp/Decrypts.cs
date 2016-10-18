@@ -71,7 +71,7 @@ namespace SteganographyApp
                 }
             }
         }
-            Clipboard.SetText(extractedText);
+        Clipboard.SetText(extractedText);
         return extractedText;
     }
 
