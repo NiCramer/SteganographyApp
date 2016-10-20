@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
-using System.Windows.Forms;
 
 namespace SteganographyApp
 {
-    class Decrypts
+    public class Decrypts
     {
         public static string extractText(Bitmap bmp)
     {
@@ -71,7 +70,7 @@ namespace SteganographyApp
                 }
             }
         }
-        Clipboard.SetText(extractedText);
+
         return extractedText;
     }
 

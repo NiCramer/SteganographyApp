@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Imaging;
 
 namespace SteganographyApp
 {
@@ -23,6 +25,7 @@ namespace SteganographyApp
         Bitmap image1;
         string message;
         Encrypt encrypt1 = new Encrypt();
+        MemoryStream userInput = new MemoryStream();
         
 
         private void button1_Click(object sender, EventArgs e)
@@ -76,10 +79,29 @@ namespace SteganographyApp
                     else
                     {
                         Encrypt.embedText(text, image1);
-                        encrypt1.setPassword(password);
+                        encrypt1.setPassword(password2);
                         MessageBox.Show("Message encrypted");
                         label4.Text = "";
-                        
+                        //image1.Save("Images/encryptedImage.bmp", ImageFormat.Bmp);
+                        SaveFileDialog file = new SaveFileDialog();
+                        file.CreatePrompt = true;
+                        file.OverwritePrompt = true;
+
+                        file.FileName = "encryptedImage.bmp";
+                        file.Filter = "bmp files (*.bmp)|*.bmp";
+                        file.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+                        DialogResult result = file.ShowDialog();
+                        Stream fileStream;
+
+                        if (result == DialogResult.OK)
+                        {
+                            fileStream = file.OpenFile();
+                            userInput.Position = 0;
+                            userInput.WriteTo(fileStream);
+                            fileStream.Close();
+ 
+                        }
                         
                     }
 
