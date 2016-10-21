@@ -18,7 +18,7 @@ namespace UnitTestProject1
             // arrange
 
 
-            Bitmap bmp = new Bitmap(@"..\..\Images\testImage.bmp");
+            Bitmap bmp = new Bitmap(@"..\..\testImage.bmp");
 
 
 
