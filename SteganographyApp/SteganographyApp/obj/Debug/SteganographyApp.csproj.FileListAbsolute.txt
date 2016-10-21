@@ -1,18 +1,9 @@
-c:\users\nick cramer\documents\visual studio 2013\Projects\SteganographyApp\SteganographyApp\bin\Debug\SteganographyApp.exe.config
-C:\Users\Nick Cramer\Documents\Visual Studio 2013\Projects\SteganographyApp\SteganographyApp\bin\Debug\SteganographyApp.exe
-C:\Users\Nick Cramer\Documents\Visual Studio 2013\Projects\SteganographyApp\SteganographyApp\bin\Debug\SteganographyApp.pdb
-C:\Users\Nick Cramer\Documents\Visual Studio 2013\Projects\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.csprojResolveAssemblyReference.cache
 C:\Users\Nick Cramer\Documents\Visual Studio 2013\Projects\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.Form1.resources
 C:\Users\Nick Cramer\Documents\Visual Studio 2013\Projects\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.Properties.Resources.resources
 C:\Users\Nick Cramer\Documents\Visual Studio 2013\Projects\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.csproj.GenerateResource.Cache
+C:\Users\Nick Cramer\Documents\Visual Studio 2013\Projects\SteganographyApp\SteganographyApp\bin\Debug\SteganographyApp.exe.config
+C:\Users\Nick Cramer\Documents\Visual Studio 2013\Projects\SteganographyApp\SteganographyApp\bin\Debug\SteganographyApp.exe
+C:\Users\Nick Cramer\Documents\Visual Studio 2013\Projects\SteganographyApp\SteganographyApp\bin\Debug\SteganographyApp.pdb
 C:\Users\Nick Cramer\Documents\Visual Studio 2013\Projects\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.exe
 C:\Users\Nick Cramer\Documents\Visual Studio 2013\Projects\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.pdb
-C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\SteganographyApp\bin\Debug\SteganographyApp.exe.config
-C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.exe
-C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.pdb
-C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\SteganographyApp\bin\Debug\SteganographyApp.exe
-C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\SteganographyApp\bin\Debug\SteganographyApp.pdb
-C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.csprojResolveAssemblyReference.cache
-C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.Form1.resources
-C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.Properties.Resources.resources
-C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.csproj.GenerateResource.Cache
+C:\Users\Nick Cramer\Documents\Visual Studio 2013\Projects\SteganographyApp\SteganographyApp\obj\Debug\SteganographyApp.csprojResolveAssemblyReference.cache
