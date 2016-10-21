@@ -18,13 +18,8 @@ namespace UnitTestProject1
             // arrange
 
 
-            Bitmap bmp = new Bitmap(@"..\..\testImage.bmp");
-
-
-
-
-            Encrypt encrypt = new Encrypt();
-            Decrypts decrypt = new Decrypts();
+            Bitmap bmp = new Bitmap(@"..\..\Image\testImage.bmp");
+            
             
             //act
 
@@ -42,15 +37,14 @@ namespace UnitTestProject1
         [TestMethod]
         public void check_()
         {
-            Encrypt encrypt = new Encrypt();
-            Decrypts decrypt = new Decrypts();
 
-            Encrypt.embedTextTest(message);
-            Bitmap bmp = encrypt.getBitmap();
+            
+            Bitmap bmp = Encrypt.embedTextTest(message);
+            var got_message = Decrypts.extractText(bmp);
 
-            //if ()
+            if (message != got_message)
             {
-
+                throw new Exception("fail. decryptedMessage: " + got_message);
             }
                 
         }

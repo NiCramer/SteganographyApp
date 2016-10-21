@@ -161,7 +161,7 @@ namespace SteganographyApp
          public static Bitmap embedTextTest(string text)
         {
 
-            Bitmap bmp = new Bitmap(@"..\..\Images\testImage.bmp");
+            Bitmap bmp = new Bitmap(@"..\..\Image\testImage.bmp");
             State state = State.Hidden;
             
 
