@@ -7,3 +7,10 @@ C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\UnitTestProjec
 C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 C:\Users\Kevin\Documents\GitHub\SteganographyApp\SteganographyApp\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\Nick Cramer\Documents\GitHub\SteganographyApp\SteganographyApp\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Nick Cramer\Documents\GitHub\SteganographyApp\SteganographyApp\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Nick Cramer\Documents\GitHub\SteganographyApp\SteganographyApp\UnitTestProject1\bin\Debug\SteganographyApp.exe
+C:\Users\Nick Cramer\Documents\GitHub\SteganographyApp\SteganographyApp\UnitTestProject1\bin\Debug\SteganographyApp.pdb
+C:\Users\Nick Cramer\Documents\GitHub\SteganographyApp\SteganographyApp\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Nick Cramer\Documents\GitHub\SteganographyApp\SteganographyApp\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Nick Cramer\Documents\GitHub\SteganographyApp\SteganographyApp\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

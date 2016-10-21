@@ -79,29 +79,10 @@ namespace SteganographyApp
                     else
                     {
                         Encrypt.embedText(text, image1);
-                        encrypt1.setPassword(password2);
+                        encrypt1.setPassword(password);
                         MessageBox.Show("Message encrypted");
                         label4.Text = "";
-                        //image1.Save("Images/encryptedImage.bmp", ImageFormat.Bmp);
-                        SaveFileDialog file = new SaveFileDialog();
-                        file.CreatePrompt = true;
-                        file.OverwritePrompt = true;
-
-                        file.FileName = "encryptedImage.bmp";
-                        file.Filter = "bmp files (*.bmp)|*.bmp";
-                        file.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-
-                        DialogResult result = file.ShowDialog();
-                        Stream fileStream;
-
-                        if (result == DialogResult.OK)
-                        {
-                            fileStream = file.OpenFile();
-                            userInput.Position = 0;
-                            userInput.WriteTo(fileStream);
-                            fileStream.Close();
- 
-                        }
+                       
                         
                     }
 
@@ -119,12 +100,14 @@ namespace SteganographyApp
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
                 password = textBox2.Text;
+
             
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             password2 = encrypt1.getPassword();
+            
 
             if (image1 == null)
             {

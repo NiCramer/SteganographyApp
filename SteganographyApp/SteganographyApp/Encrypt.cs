@@ -153,10 +153,6 @@ namespace SteganographyApp
             return password;
         }
 
-        //public static Bitmap createBMP(Bitmap bmp){
-            
-        //    return bmp;
-        //}
 
          public static Bitmap embedTextTest(string text)
         {
