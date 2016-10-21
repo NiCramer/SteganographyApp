@@ -16,11 +16,11 @@ namespace UnitTestProject1
         public void check_Extracted_Text()
         {
             // arrange
-            
-            
-            //Bitmap bmp = new Bitmap(new Uri("pack://application:,,,/Image/testImage.bmp"));
-            
-            
+
+
+            Bitmap bmp = new Bitmap(@"..\..\Images\testImage.bmp");
+
+
 
 
             Encrypt encrypt = new Encrypt();
@@ -28,18 +28,18 @@ namespace UnitTestProject1
             
             //act
 
-            //Encrypt.embedText(message, bmp);
-            //decryptedMessage = Decrypts.extractText(bmp);
+            Encrypt.embedText(message, bmp);
+            var decryptedMessage = Decrypts.extractText(bmp);
 
-            //if (decryptedMessage != message)
-            //{
-            //    throw new Exception("fail. decryptedMessage: " + decryptedMessage);
+            if (decryptedMessage != message)
+            {
+                throw new Exception("fail. decryptedMessage: " + decryptedMessage);
 
-            //}
+            }
             
         }
 
-            [TestMethod]
+        [TestMethod]
         public void check_()
         {
             Encrypt encrypt = new Encrypt();
@@ -48,7 +48,7 @@ namespace UnitTestProject1
             Encrypt.embedTextTest(message);
             Bitmap bmp = encrypt.getBitmap();
 
-            if ()
+            //if ()
             {
 
             }
